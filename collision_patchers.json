@@ -1,5 +1,64 @@
 {
     "direct_patchers": {
+        "minecraft:vine": {
+            "state": [
+                {
+                    "overwrite": []
+                }
+            ]
+        },
+        "minecraft:ladder": {
+            "state": [
+                {
+                    "facing_direction": 0,
+                    "template": {
+                        "type": "facing_block",
+                        "face": 0,
+                        "distance": 0.8125
+                    }
+                },
+                {
+                    "facing_direction": 1,
+                    "template": {
+                        "type": "facing_block",
+                        "face": 1,
+                        "distance": 0.8125
+                    }
+                },
+                {
+                    "facing_direction": 2,
+                    "template": {
+                        "type": "facing_block",
+                        "face": 2,
+                        "distance": 0.8125
+                    }
+                },
+                {
+                    "facing_direction": 3,
+                    "template": {
+                        "type": "facing_block",
+                        "face": 3,
+                        "distance": 0.8125
+                    }
+                },
+                {
+                    "facing_direction": 4,
+                    "template": {
+                        "type": "facing_block",
+                        "face": 4,
+                        "distance": 0.8125
+                    }
+                },
+                {
+                    "facing_direction": 5,
+                    "template": {
+                        "type": "facing_block",
+                        "face": 5,
+                        "distance": 0.8125
+                    }
+                }
+            ]
+        }
     },
     "state_patchers": {
         "minecraft:vertical_half": [
