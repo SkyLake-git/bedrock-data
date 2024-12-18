@@ -1,6 +1,8 @@
 {
     "minecraft:acacia_button": {},
-    "minecraft:acacia_door": {},
+    "minecraft:acacia_door": {
+        "door": true
+    },
     "minecraft:acacia_double_slab": {},
     "minecraft:acacia_fence": {},
     "minecraft:acacia_fence_gate": {},
@@ -13,7 +15,9 @@
     "minecraft:acacia_slab": {},
     "minecraft:acacia_stairs": {},
     "minecraft:acacia_standing_sign": {},
-    "minecraft:acacia_trapdoor": {},
+    "minecraft:acacia_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:acacia_wall_sign": {},
     "minecraft:acacia_wood": {},
     "minecraft:activator_rail": {},
@@ -36,7 +40,9 @@
     "minecraft:bamboo": {},
     "minecraft:bamboo_block": {},
     "minecraft:bamboo_button": {},
-    "minecraft:bamboo_door": {},
+    "minecraft:bamboo_door": {
+        "door": true
+    },
     "minecraft:bamboo_double_slab": {},
     "minecraft:bamboo_fence": {},
     "minecraft:bamboo_fence_gate": {},
@@ -51,7 +57,9 @@
     "minecraft:bamboo_slab": {},
     "minecraft:bamboo_stairs": {},
     "minecraft:bamboo_standing_sign": {},
-    "minecraft:bamboo_trapdoor": {},
+    "minecraft:bamboo_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:bamboo_wall_sign": {},
     "minecraft:barrel": {},
     "minecraft:barrier": {},
@@ -65,7 +73,9 @@
     "minecraft:bell": {},
     "minecraft:big_dripleaf": {},
     "minecraft:birch_button": {},
-    "minecraft:birch_door": {},
+    "minecraft:birch_door": {
+        "door": true
+    },
     "minecraft:birch_double_slab": {},
     "minecraft:birch_fence": {},
     "minecraft:birch_fence_gate": {},
@@ -78,7 +88,9 @@
     "minecraft:birch_slab": {},
     "minecraft:birch_stairs": {},
     "minecraft:birch_standing_sign": {},
-    "minecraft:birch_trapdoor": {},
+    "minecraft:birch_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:birch_wall_sign": {},
     "minecraft:birch_wood": {},
     "minecraft:black_candle": {},
@@ -169,7 +181,9 @@
     "minecraft:chalkboard": {},
     "minecraft:chemical_heat": {},
     "minecraft:cherry_button": {},
-    "minecraft:cherry_door": {},
+    "minecraft:cherry_door": {
+        "door": true
+    },
     "minecraft:cherry_double_slab": {},
     "minecraft:cherry_fence": {},
     "minecraft:cherry_fence_gate": {},
@@ -182,7 +196,9 @@
     "minecraft:cherry_slab": {},
     "minecraft:cherry_stairs": {},
     "minecraft:cherry_standing_sign": {},
-    "minecraft:cherry_trapdoor": {},
+    "minecraft:cherry_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:cherry_wall_sign": {},
     "minecraft:cherry_wood": {},
     "minecraft:chest": {},
@@ -227,10 +243,14 @@
     "minecraft:conduit": {},
     "minecraft:copper_block": {},
     "minecraft:copper_bulb": {},
-    "minecraft:copper_door": {},
+    "minecraft:copper_door": {
+        "door": true
+    },
     "minecraft:copper_grate": {},
     "minecraft:copper_ore": {},
-    "minecraft:copper_trapdoor": {},
+    "minecraft:copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:cornflower": {},
     "minecraft:cracked_deepslate_bricks": {},
     "minecraft:cracked_deepslate_tiles": {},
@@ -242,7 +262,9 @@
     "minecraft:creaking_heart": {},
     "minecraft:creeper_head": {},
     "minecraft:crimson_button": {},
-    "minecraft:crimson_door": {},
+    "minecraft:crimson_door": {
+        "door": true
+    },
     "minecraft:crimson_double_slab": {},
     "minecraft:crimson_fence": {},
     "minecraft:crimson_fence_gate": {},
@@ -257,7 +279,9 @@
     "minecraft:crimson_stairs": {},
     "minecraft:crimson_standing_sign": {},
     "minecraft:crimson_stem": {},
-    "minecraft:crimson_trapdoor": {},
+    "minecraft:crimson_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:crimson_wall_sign": {},
     "minecraft:crying_obsidian": {},
     "minecraft:cut_copper": {},
@@ -283,7 +307,9 @@
     "minecraft:damaged_anvil": {},
     "minecraft:dandelion": {},
     "minecraft:dark_oak_button": {},
-    "minecraft:dark_oak_door": {},
+    "minecraft:dark_oak_door": {
+        "door": true
+    },
     "minecraft:dark_oak_double_slab": {},
     "minecraft:dark_oak_fence": {},
     "minecraft:dark_oak_fence_gate": {},
@@ -295,7 +321,9 @@
     "minecraft:dark_oak_sapling": {},
     "minecraft:dark_oak_slab": {},
     "minecraft:dark_oak_stairs": {},
-    "minecraft:dark_oak_trapdoor": {},
+    "minecraft:dark_oak_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:dark_oak_wood": {},
     "minecraft:dark_prismarine": {},
     "minecraft:dark_prismarine_double_slab": {},
@@ -504,9 +532,13 @@
     "minecraft:exposed_chiseled_copper": {},
     "minecraft:exposed_copper": {},
     "minecraft:exposed_copper_bulb": {},
-    "minecraft:exposed_copper_door": {},
+    "minecraft:exposed_copper_door": {
+        "door": true
+    },
     "minecraft:exposed_copper_grate": {},
-    "minecraft:exposed_copper_trapdoor": {},
+    "minecraft:exposed_copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:exposed_cut_copper": {},
     "minecraft:exposed_cut_copper_slab": {},
     "minecraft:exposed_cut_copper_stairs": {},
@@ -628,13 +660,19 @@
     "minecraft:invisible_bedrock": {},
     "minecraft:iron_bars": {},
     "minecraft:iron_block": {},
-    "minecraft:iron_door": {},
+    "minecraft:iron_door": {
+        "door": true
+    },
     "minecraft:iron_ore": {},
-    "minecraft:iron_trapdoor": {},
+    "minecraft:iron_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:jigsaw": {},
     "minecraft:jukebox": {},
     "minecraft:jungle_button": {},
-    "minecraft:jungle_door": {},
+    "minecraft:jungle_door": {
+        "door": true
+    },
     "minecraft:jungle_double_slab": {},
     "minecraft:jungle_fence": {},
     "minecraft:jungle_fence_gate": {},
@@ -647,7 +685,9 @@
     "minecraft:jungle_slab": {},
     "minecraft:jungle_stairs": {},
     "minecraft:jungle_standing_sign": {},
-    "minecraft:jungle_trapdoor": {},
+    "minecraft:jungle_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:jungle_wall_sign": {},
     "minecraft:jungle_wood": {},
     "minecraft:kelp": {},
@@ -737,7 +777,9 @@
     "minecraft:magenta_wool": {},
     "minecraft:magma": {},
     "minecraft:mangrove_button": {},
-    "minecraft:mangrove_door": {},
+    "minecraft:mangrove_door": {
+        "door": true
+    },
     "minecraft:mangrove_double_slab": {},
     "minecraft:mangrove_fence": {},
     "minecraft:mangrove_fence_gate": {},
@@ -751,7 +793,9 @@
     "minecraft:mangrove_slab": {},
     "minecraft:mangrove_stairs": {},
     "minecraft:mangrove_standing_sign": {},
-    "minecraft:mangrove_trapdoor": {},
+    "minecraft:mangrove_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:mangrove_wall_sign": {},
     "minecraft:mangrove_wood": {},
     "minecraft:material_reducer": {},
@@ -828,9 +872,13 @@
     "minecraft:oxidized_chiseled_copper": {},
     "minecraft:oxidized_copper": {},
     "minecraft:oxidized_copper_bulb": {},
-    "minecraft:oxidized_copper_door": {},
+    "minecraft:oxidized_copper_door": {
+        "door": true
+    },
     "minecraft:oxidized_copper_grate": {},
-    "minecraft:oxidized_copper_trapdoor": {},
+    "minecraft:oxidized_copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:oxidized_cut_copper": {},
     "minecraft:oxidized_cut_copper_slab": {},
     "minecraft:oxidized_cut_copper_stairs": {},
@@ -841,7 +889,9 @@
     "minecraft:pale_moss_block": {},
     "minecraft:pale_moss_carpet": {},
     "minecraft:pale_oak_button": {},
-    "minecraft:pale_oak_door": {},
+    "minecraft:pale_oak_door": {
+        "door": true
+    },
     "minecraft:pale_oak_double_slab": {},
     "minecraft:pale_oak_fence": {},
     "minecraft:pale_oak_fence_gate": {},
@@ -854,7 +904,9 @@
     "minecraft:pale_oak_slab": {},
     "minecraft:pale_oak_stairs": {},
     "minecraft:pale_oak_standing_sign": {},
-    "minecraft:pale_oak_trapdoor": {},
+    "minecraft:pale_oak_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:pale_oak_wall_sign": {},
     "minecraft:pale_oak_wood": {},
     "minecraft:pearlescent_froglight": {},
@@ -1056,7 +1108,9 @@
     "minecraft:sponge": {},
     "minecraft:spore_blossom": {},
     "minecraft:spruce_button": {},
-    "minecraft:spruce_door": {},
+    "minecraft:spruce_door": {
+        "door": true
+    },
     "minecraft:spruce_double_slab": {},
     "minecraft:spruce_fence": {},
     "minecraft:spruce_fence_gate": {},
@@ -1069,7 +1123,9 @@
     "minecraft:spruce_slab": {},
     "minecraft:spruce_stairs": {},
     "minecraft:spruce_standing_sign": {},
-    "minecraft:spruce_trapdoor": {},
+    "minecraft:spruce_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:spruce_wall_sign": {},
     "minecraft:spruce_wood": {},
     "minecraft:standing_banner": {},
@@ -1123,7 +1179,9 @@
     "minecraft:torch": {},
     "minecraft:torchflower": {},
     "minecraft:torchflower_crop": {},
-    "minecraft:trapdoor": {},
+    "minecraft:trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:trapped_chest": {},
     "minecraft:trial_spawner": {},
     "minecraft:trip_wire": {},
@@ -1143,7 +1201,9 @@
     "minecraft:tuff_stairs": {},
     "minecraft:tuff_wall": {},
     "minecraft:turtle_egg": {},
-    "minecraft:twisting_vines": {},
+    "minecraft:twisting_vines": {
+        "climbable": true
+    },
     "minecraft:underwater_tnt": {},
     "minecraft:underwater_torch": {},
     "minecraft:undyed_shulker_box": {},
@@ -1159,7 +1219,9 @@
     "minecraft:wall_banner": {},
     "minecraft:wall_sign": {},
     "minecraft:warped_button": {},
-    "minecraft:warped_door": {},
+    "minecraft:warped_door": {
+        "door": true
+    },
     "minecraft:warped_double_slab": {},
     "minecraft:warped_fence": {},
     "minecraft:warped_fence_gate": {},
@@ -1174,7 +1236,9 @@
     "minecraft:warped_stairs": {},
     "minecraft:warped_standing_sign": {},
     "minecraft:warped_stem": {},
-    "minecraft:warped_trapdoor": {},
+    "minecraft:warped_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:warped_wall_sign": {},
     "minecraft:warped_wart_block": {},
     "minecraft:water": {},
@@ -1182,9 +1246,13 @@
     "minecraft:waxed_chiseled_copper": {},
     "minecraft:waxed_copper": {},
     "minecraft:waxed_copper_bulb": {},
-    "minecraft:waxed_copper_door": {},
+    "minecraft:waxed_copper_door": {
+        "door": true
+    },
     "minecraft:waxed_copper_grate": {},
-    "minecraft:waxed_copper_trapdoor": {},
+    "minecraft:waxed_copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:waxed_cut_copper": {},
     "minecraft:waxed_cut_copper_slab": {},
     "minecraft:waxed_cut_copper_stairs": {},
@@ -1192,9 +1260,13 @@
     "minecraft:waxed_exposed_chiseled_copper": {},
     "minecraft:waxed_exposed_copper": {},
     "minecraft:waxed_exposed_copper_bulb": {},
-    "minecraft:waxed_exposed_copper_door": {},
+    "minecraft:waxed_exposed_copper_door": {
+        "door": true
+    },
     "minecraft:waxed_exposed_copper_grate": {},
-    "minecraft:waxed_exposed_copper_trapdoor": {},
+    "minecraft:waxed_exposed_copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:waxed_exposed_cut_copper": {},
     "minecraft:waxed_exposed_cut_copper_slab": {},
     "minecraft:waxed_exposed_cut_copper_stairs": {},
@@ -1202,9 +1274,13 @@
     "minecraft:waxed_oxidized_chiseled_copper": {},
     "minecraft:waxed_oxidized_copper": {},
     "minecraft:waxed_oxidized_copper_bulb": {},
-    "minecraft:waxed_oxidized_copper_door": {},
+    "minecraft:waxed_oxidized_copper_door": {
+        "door": true
+    },
     "minecraft:waxed_oxidized_copper_grate": {},
-    "minecraft:waxed_oxidized_copper_trapdoor": {},
+    "minecraft:waxed_oxidized_copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:waxed_oxidized_cut_copper": {},
     "minecraft:waxed_oxidized_cut_copper_slab": {},
     "minecraft:waxed_oxidized_cut_copper_stairs": {},
@@ -1212,9 +1288,13 @@
     "minecraft:waxed_weathered_chiseled_copper": {},
     "minecraft:waxed_weathered_copper": {},
     "minecraft:waxed_weathered_copper_bulb": {},
-    "minecraft:waxed_weathered_copper_door": {},
+    "minecraft:waxed_weathered_copper_door": {
+        "door": true
+    },
     "minecraft:waxed_weathered_copper_grate": {},
-    "minecraft:waxed_weathered_copper_trapdoor": {},
+    "minecraft:waxed_weathered_copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:waxed_weathered_cut_copper": {},
     "minecraft:waxed_weathered_cut_copper_slab": {},
     "minecraft:waxed_weathered_cut_copper_stairs": {},
@@ -1222,9 +1302,13 @@
     "minecraft:weathered_chiseled_copper": {},
     "minecraft:weathered_copper": {},
     "minecraft:weathered_copper_bulb": {},
-    "minecraft:weathered_copper_door": {},
+    "minecraft:weathered_copper_door": {
+        "door": true
+    },
     "minecraft:weathered_copper_grate": {},
-    "minecraft:weathered_copper_trapdoor": {},
+    "minecraft:weathered_copper_trapdoor": {
+        "trapdoor": true
+    },
     "minecraft:weathered_cut_copper": {},
     "minecraft:weathered_cut_copper_slab": {},
     "minecraft:weathered_cut_copper_stairs": {},
@@ -1250,7 +1334,9 @@
     "minecraft:wither_rose": {},
     "minecraft:wither_skeleton_skull": {},
     "minecraft:wooden_button": {},
-    "minecraft:wooden_door": {},
+    "minecraft:wooden_door": {
+        "door": true
+    },
     "minecraft:wooden_pressure_plate": {},
     "minecraft:yellow_candle": {},
     "minecraft:yellow_candle_cake": {},

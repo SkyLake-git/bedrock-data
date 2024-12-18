@@ -1,5 +1,244 @@
 {
     "direct_patchers": {
+        "minecraft:acacia_trapdoor": {
+            "state": [
+                {
+                    "open_bit": 0,
+                    "upside_down_bit": 0,
+                    "template": {
+                        "type": "trapdoor",
+                        "face": 0,
+                        "opened": false,
+                        "upside_down": false
+                    }
+                },
+                {
+                    "open_bit": 0,
+                    "upside_down_bit": 1,
+                    "template": {
+                        "type": "trapdoor",
+                        "face": 0,
+                        "opened": false,
+                        "upside_down": true
+                    }
+                },
+                {
+                    "direction": 0,
+                    "open_bit": 1,
+                    "template": {
+                        "type": "trapdoor",
+                        "face": 4,
+                        "opened": true,
+                        "upside_down": false
+                    }
+                },
+                {
+                    "direction": 1,
+                    "open_bit": 1,
+                    "template": {
+                        "type": "trapdoor",
+                        "face": 5,
+                        "opened": true,
+                        "upside_down": false
+                    }
+                },
+                {
+                    "direction": 2,
+                    "open_bit": 1,
+                    "template": {
+                        "type": "trapdoor",
+                        "face": 2,
+                        "opened": true,
+                        "upside_down": false
+                    }
+                },
+                {
+                    "direction": 3,
+                    "open_bit": 1,
+                    "template": {
+                        "type": "trapdoor",
+                        "face": 3,
+                        "opened": true,
+                        "upside_down": false
+                    }
+                }
+            ]
+        },
+        "minecraft:bamboo_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:birch_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:cherry_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:crimson_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:dark_oak_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:exposed_copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:iron_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:jungle_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:mangrove_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:oxidized_copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:pale_oak_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:spruce_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:warped_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:waxed_copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:waxed_exposed_copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:waxed_oxidized_copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:waxed_weathered_copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:weathered_copper_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:acacia_door": {
+            "state": [
+                {
+                    "direction": 0,
+                    "open_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 5,
+                        "opened": false,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 0,
+                    "open_bit": 1,
+                    "door_hinge_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 5,
+                        "opened": true,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 0,
+                    "open_bit": 1,
+                    "door_hinge_bit": 1,
+                    "template": {
+                        "type": "door",
+                        "face": 5,
+                        "opened": true,
+                        "hinge": true
+                    }
+                },
+                // 1
+                {
+                    "direction": 1,
+                    "open_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 3,
+                        "opened": false,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 1,
+                    "open_bit": 1,
+                    "door_hinge_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 3,
+                        "opened": true,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 1,
+                    "open_bit": 1,
+                    "door_hinge_bit": 1,
+                    "template": {
+                        "type": "door",
+                        "face": 3,
+                        "opened": true,
+                        "hinge": true
+                    }
+                },
+                // 2
+                {
+                    "direction": 2,
+                    "open_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 4,
+                        "opened": false,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 2,
+                    "open_bit": 1,
+                    "door_hinge_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 4,
+                        "opened": true,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 2,
+                    "open_bit": 1,
+                    "door_hinge_bit": 1,
+                    "template": {
+                        "type": "door",
+                        "face": 4,
+                        "opened": true,
+                        "hinge": true
+                    }
+                },
+                //3
+                {
+                    "direction": 3,
+                    "open_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 2,
+                        "opened": false,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 3,
+                    "open_bit": 1,
+                    "door_hinge_bit": 0,
+                    "template": {
+                        "type": "door",
+                        "face": 2,
+                        "opened": true,
+                        "hinge": false
+                    }
+                },
+                {
+                    "direction": 3,
+                    "open_bit": 1,
+                    "door_hinge_bit": 1,
+                    "template": {
+                        "type": "door",
+                        "face": 2,
+                        "opened": true,
+                        "hinge": true
+                    }
+                }
+            ]
+        },
+        "minecraft:bamboo_door": "minecraft:acacia_door",
+        "minecraft:birch_door": "minecraft:acacia_door",
+        "minecraft:cherry_door": "minecraft:acacia_door",
+        "minecraft:copper_door": "minecraft:acacia_door",
+        "minecraft:crimson_door": "minecraft:acacia_door",
+        "minecraft:dark_oak_door": "minecraft:acacia_door",
+        "minecraft:exposed_copper_door": "minecraft:acacia_door",
+        "minecraft:iron_door": "minecraft:acacia_door",
+        "minecraft:jungle_door": "minecraft:acacia_door",
+        "minecraft:mangrove_door": "minecraft:acacia_door",
+        "minecraft:oxidized_copper_door": "minecraft:acacia_door",
+        "minecraft:pale_oak_door": "minecraft:acacia_door",
+        "minecraft:spruce_door": "minecraft:acacia_door",
+        "minecraft:warped_door": "minecraft:acacia_door",
+        "minecraft:waxed_copper_door": "minecraft:acacia_door",
+        "minecraft:waxed_exposed_copper_door": "minecraft:acacia_door",
+        "minecraft:waxed_oxidized_copper_door": "minecraft:acacia_door",
+        "minecraft:waxed_weathered_copper_door": "minecraft:acacia_door",
+        "minecraft:weathered_copper_door": "minecraft:acacia_door",
+        "minecraft:wooden_door": "minecraft:acacia_door",
         "minecraft:vine": {
             "state": [
                 {
@@ -7,6 +246,76 @@
                 }
             ]
         },
+        "minecraft:acacia_double_slab": {
+            "state": [
+                {
+                    "template": {
+                        "type": "cube"
+                    }
+                }
+            ]
+        },
+        "minecraft:andesite_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:bamboo_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:bamboo_mosaic_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:birch_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:blackstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:cherry_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:cobbled_deepslate_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:cobblestone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:crimson_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:cut_red_sandstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:cut_sandstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:dark_oak_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:dark_prismarine_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:deepslate_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:deepslate_tile_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:diorite_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:double_cut_copper_slab": "minecraft:acacia_double_slab",
+        "minecraft:end_stone_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:exposed_double_cut_copper_slab": "minecraft:acacia_double_slab",
+        "minecraft:granite_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:jungle_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:mangrove_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:mossy_cobblestone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:mossy_stone_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:mud_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:nether_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:normal_stone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:oak_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:oxidized_double_cut_copper_slab": "minecraft:acacia_double_slab",
+        "minecraft:pale_oak_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:petrified_oak_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:polished_andesite_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:polished_blackstone_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:polished_blackstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:polished_deepslate_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:polished_diorite_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:polished_granite_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:polished_tuff_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:prismarine_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:prismarine_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:purpur_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:quartz_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:red_nether_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:red_sandstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:resin_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:sandstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:smooth_quartz_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:smooth_red_sandstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:smooth_sandstone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:smooth_stone_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:spruce_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:stone_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:tuff_brick_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:tuff_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:warped_double_slab": "minecraft:acacia_double_slab",
+        "minecraft:waxed_double_cut_copper_slab": "minecraft:acacia_double_slab",
+        "minecraft:waxed_exposed_double_cut_copper_slab": "minecraft:acacia_double_slab",
+        "minecraft:waxed_oxidized_double_cut_copper_slab": "minecraft:acacia_double_slab",
+        "minecraft:waxed_weathered_double_cut_copper_slab": "minecraft:acacia_double_slab",
+        "minecraft:weathered_double_cut_copper_slab": "minecraft:acacia_double_slab",
         "minecraft:ladder": {
             "state": [
                 {
